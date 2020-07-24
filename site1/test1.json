@@ -1,0 +1,82 @@
+{
+  "records": [
+    {
+      "_status": {
+        "code": 200,
+        "text": "OK",
+        "request_id": "83bad30f-5416-41d3-9f44-d073920b1be4"
+      },
+      "_id": "10352343-7486-47f1-ae8f-f71695870c4d",
+      "_width": 640,
+      "_height": 426,
+      "labels": [
+        {
+          "prob": 0.90675,
+          "name": "Acne",
+          "id": "b8493406-cf4b-49bf-8728-5f067f451291"
+        },
+        {
+          "prob": 0.02038,
+          "name": "an E. coli infection",
+          "id": "9b69f5f9-77b3-4880-8322-c1568dee603f"
+        },
+        {
+          "prob": 0.01484,
+          "name": "Serum Sickness",
+          "id": "32937c61-2b1f-48b4-98e7-31e24e4c25bf"
+        },
+        {
+          "prob": 0.00953,
+          "name": "Dermatitis herpetiformis",
+          "id": "b4a8993b-cfcc-45e1-b367-6bea7ba46197"
+        },
+        {
+          "prob": 0.00807,
+          "name": "Impetigo",
+          "id": "897b4c1b-bb9f-45fa-8e41-a237240618f7"
+        },
+        {
+          "prob": 0.00705,
+          "name": "Chicken Pox",
+          "id": "efe35276-5b7c-4697-8808-9780f7ded9ce"
+        },
+        {
+          "prob": 0.00653,
+          "name": "Eczema",
+          "id": "72bab87d-5200-4990-9ab0-5c969f7a43be"
+        },
+        {
+          "prob": 0.00488,
+          "name": "Gout",
+          "id": "3b83666e-1095-4846-a748-dab037ca6661"
+        },
+        {
+          "prob": 0.00467,
+          "name": "Hairy Cell Leukemia",
+          "id": "1e695d69-65ad-4b92-b147-cf76ce3d1410"
+        },
+        {
+          "prob": 0.00378,
+          "name": "Melanoma (Potential Skin Cancer)",
+          "id": "b45823fb-05d9-40a4-bb60-1550c237d49e"
+        }
+      ],
+      "best_label": {
+        "prob": 0.90675,
+        "name": "Acne",
+        "id": "b8493406-cf4b-49bf-8728-5f067f451291"
+      }
+    }
+  ],
+  "task_id": "6eb714a7-d2c1-44b4-aaf5-c95a93b2ab49",
+  "version": 1,
+  "status": {
+    "code": 200,
+    "text": "OK",
+    "request_id": "83bad30f-5416-41d3-9f44-d073920b1be4",
+    "proc_id": "e4d826c7-87f0-4fcb-a3f8-2d2d4cc99285"
+  },
+  "statistics": {
+    "processing time": 0.19936084747314453
+  }
+}

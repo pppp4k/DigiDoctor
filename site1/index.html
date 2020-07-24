@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+
+
+<html>
+	<head>
+		<title>DigiDoctor by Pratyush Kore and Saathvik Somujayabalan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="#">DigiDoctor<span><br><h3>by Pratyush Kore and Saathvik Somujayabalan</h3></span></a></div>
+			</header>
+
+		<!-- Main -->
+			<section id="main">
+				<div class="inner">
+
+				<!-- One -->
+					<section id="one" class="wrapper style1">
+
+						<div class="image fit flush">
+							<img src="images/pic02.png" alt="" />
+						</div>
+						<header class="special">
+							<h2>Using the power of Machine Learning to expand healthcare.</h2>
+							<h3>DigiDoctor will take an image of anything on your skin. Once you type in the path of your image, DigiDoctor will diagnose you and provide more information on your diagnosis.</h3>
+						</header>
+				<form id="form" onsubmit="return false;">
+					<input type="text" id="userInput" />
+					<input type="submit" onclick="othername();" />
+				</form>
+				function othername() {
+    				var input = document.getElementById("userInput").value;
+    				alert(input);	
+					<?PHP
+					echo shell_exec("dataF.py, var input");
+					?>
+				}				
+
+	</body>
+</html>
