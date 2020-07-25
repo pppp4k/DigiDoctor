@@ -5,6 +5,7 @@ DigiDoctor is the backbone for a software which uses machine learning to diagnos
 
 ## Contents
 
+The files with suffix "ignore" are old, failed, or obsolete attemps at communicating with the machine learning API.
 There are 2 files you will find useful: 
 
 ### RUN_THIS.py
@@ -38,6 +39,18 @@ You are welcome to download, test, and develop this software. Pull requests are 
 ## Resources
 
 Multiple libraries were used, all of which come with Python by default.
+Libraries used: requests, json, base64, sys
+Ximilar and urllib libraries also used
+
+```python
+import requests
+import json
+import base64
+import sys
+```
 
 ## Credits
 Pratyush Kore and Saathvik Somujayabalan
+Website template from TEMPLATED (templated.co)
+Model training and API from ximilar.com (vize.ai)
+Images from Unsplash
