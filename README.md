@@ -34,7 +34,7 @@ index.html is the backbone for a potential website that would run this software.
 
 ## Usage and Contributions
 
-You are welcome to download, test, and develop this software. Pull requests are welcome, but please specify what changes you would like to make if you do want to pull.
+You are welcome to download, test, and develop this software. Pull requests are welcome, but please specify what changes you would like to make if you do want to pull. Please make sure to update tests as appropriate.
 
 ## Resources
 
