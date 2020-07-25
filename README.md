@@ -52,6 +52,9 @@ import sys
 ## Credits
 
 Pratyush Kore and Saathvik Somujayabalan
+
 Website template from TEMPLATED (templated.co)
+
 Model training and API from ximilar.com (vize.ai)
+
 Images from Unsplash
